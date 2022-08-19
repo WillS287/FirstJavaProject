@@ -31,10 +31,11 @@ public class FirstClass {
 
         for (int x = 1; x <30; x = x * 2) {
             System.out.print(x + "\t");
-            for (int i = 0; i < 6; i++) {
+            int i;
+            for (i = 0; i < 6; i++) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println(i);
         }
         System.out.println("\nDone");
     }
