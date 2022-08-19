@@ -17,16 +17,25 @@ public class FirstClass {
         numStooges = numStooges + 1;
 
         System.out.println("Now, with Shemp, there are " + numStooges + " stooges");
+//
+//        int a = 0;
+//        while (a < 100) {
+//            System.out.print(a + " --> ");
+//            a += 2;
+//            if (a== 32) {
+//                System.out.println("It's 32.");
+//                continue;
+//            }
+//            System.out.println(a);
+//        }
 
-        int a = 0;
-        while (a < 100) {
-            System.out.print(a + " --> ");
-            a += 2;
-            if (a== 32) {
-                System.out.println("It's 32.");
-                continue;
+        for (int x = 1; x <30; x = x * 2) {
+            System.out.print(x + "\t");
+            for (int i = 0; i < 6; i++) {
+                System.out.print("*");
             }
-            System.out.println(a);
+            System.out.println();
         }
+        System.out.println("\nDone");
     }
 }
