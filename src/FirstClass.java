@@ -19,9 +19,13 @@ public class FirstClass {
         System.out.println("Now, with Shemp, there are " + numStooges + " stooges");
 
         int a = 0;
-        while (a < 10) {
+        while (a < 100) {
             System.out.print(a + " --> ");
             a += 2;
+            if (a== 32) {
+                System.out.println("It's 32.");
+                break;
+            }
             System.out.println(a);
         }
     }
