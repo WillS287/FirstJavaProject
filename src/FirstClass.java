@@ -24,7 +24,7 @@ public class FirstClass {
             a += 2;
             if (a== 32) {
                 System.out.println("It's 32.");
-                break;
+                continue;
             }
             System.out.println(a);
         }
